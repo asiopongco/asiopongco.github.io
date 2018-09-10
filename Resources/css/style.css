@@ -132,3 +132,14 @@
 #ending{
   height:125px
 }
+
+@media (max-width: 1000px) and (max-height: 700px){
+  #project-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  #project-item {
+    width: 50% !important;
+  }
